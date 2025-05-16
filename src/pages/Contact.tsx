@@ -82,78 +82,6 @@ const Contact = () => {
             Entre em contato comigo por meio do formulário abaixo ou use minhas informações de contato.
           </p>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div>
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">
-                    Nome
-                  </label>
-                  <Input
-                    id="name"
-                    name="name"
-                    type="text"
-                    required
-                    placeholder="Seu nome completo"
-                    value={formData.name}
-                    onChange={handleChange}
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">
-                    Email
-                  </label>
-                  <Input
-                    id="email"
-                    name="email"
-                    type="email"
-                    required
-                    placeholder="seu.email@exemplo.com"
-                    value={formData.email}
-                    onChange={handleChange}
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="subject" className="block text-sm font-medium mb-2">
-                    Assunto
-                  </label>
-                  <Input
-                    id="subject"
-                    name="subject"
-                    type="text"
-                    required
-                    placeholder="Motivo do contato"
-                    value={formData.subject}
-                    onChange={handleChange}
-                  />
-                </div>
-                
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">
-                    Mensagem
-                  </label>
-                  <Textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows={6}
-                    placeholder="Sua mensagem"
-                    value={formData.message}
-                    onChange={handleChange}
-                  />
-                </div>
-                
-                <Button type="submit" className="w-full" disabled={isLoading}>
-                  {isLoading ? "Enviando..." : (
-                    <>
-                      Enviar Mensagem <Send className="ml-2 h-4 w-4" />
-                    </>
-                  )}
-                </Button>
-              </form>
-            </div>
             
             <div className="space-y-6">
               <Card>
@@ -240,7 +168,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </div>
+     
     </PageLayout>
   );
 };
