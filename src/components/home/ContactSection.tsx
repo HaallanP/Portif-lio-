@@ -19,13 +19,7 @@ const ContactSection = () => {
             <div className="bg-theme-purple/10 p-3 rounded-full flex-shrink-0 mr-4">
               <Mail className="text-theme-purple h-6 w-6" />
             </div>
-            <div>
-              <h4 className="text-xl font-medium mb-1">Email</h4>
-              <p className="text-muted-foreground mb-2">Para contato profissional</p>
-              <a href="mailto:hallanfranco12@gmail.com" className="text-theme-blue hover:underline">
-                hallanfranco12@gmail.com
-              </a>
-            </div>
+           
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-md flex items-start">
