@@ -19,7 +19,13 @@ const ContactSection = () => {
             <div className="bg-theme-purple/10 p-3 rounded-full flex-shrink-0 mr-4">
               <Mail className="text-theme-purple h-6 w-6" />
             </div>
-           
+            <div>
+              <h4 className="text-xl font-medium mb-1">E-Mail</h4>
+              <p className="text-muted-foreground mb-2">Entrar em contato</p>
+              <a href= "mailto:hallan.dev.app@gmail.com" target="_blank" rel="noopener noreferrer" className="text-theme-blue hover:underline block">
+                halla.dev.app@gmail.com
+              </a>
+            </div>
           </div>
           
           <div className="bg-white p-6 rounded-lg shadow-md flex items-start">

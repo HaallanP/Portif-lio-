@@ -23,7 +23,7 @@ const projectsData = {
 
 Este projeto permitirá o registro e visualização da evolução de medidas corporais ao longo do tempo, com gráficos de progresso, comparações de antes e depois, e recomendações personalizadas.
 
-O aplicativo está sendo desenvolvido com React, TypeScript e Electron, permitindo uma experiência desktop completa com a flexibilidade das tecnologias web.
+O aplicativo está sendo desenvolvido com React, TypeScript , permitindo uma experiência desktop completa com a flexibilidade das tecnologias web.
 \n
 www.fbodymedidas.com.br`,
     image: "/lovable-uploads/badcfd5e-d2c3-42ee-926b-b1b7e3e3d74c.png",
@@ -32,7 +32,7 @@ www.fbodymedidas.com.br`,
       "/lovable-uploads/a6ecb74c-c9cb-4631-8882-6303892049c4.png",
       "/lovable-uploads/1cd28793-d836-446b-9c34-27488802f141.png"
     ],
-    tags: ["React", "TypeScript", "Electron", "Em Desenvolvimento"],
+    tags: ["React", "TypeScript", "Em Desenvolvimento"],
     demoUrl: "",
     siteUrl: "https://fbodymedidas.com",
     repoUrl: "https://github.com/HaallanP/f-body-medidas",

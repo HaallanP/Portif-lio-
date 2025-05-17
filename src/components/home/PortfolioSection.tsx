@@ -11,7 +11,7 @@ const PortfolioSection = () => {
       title: "F-Body Medidas",
       description: "Projeto em andamento para gerenciamento de medidas corporais e acompanhamento de evolução física.",
       image: "/lovable-uploads/badcfd5e-d2c3-42ee-926b-b1b7e3e3d74c.png",
-      tags: ["React", "TypeScript", "Electron"],
+      tags: ["React", "TypeScript"],
       link: "/portfolio/f-body-medidas"
     }
   ];

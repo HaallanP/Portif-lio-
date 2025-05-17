@@ -48,12 +48,13 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-medium mb-4">Contato</h3>
             <ul className="space-y-2">
-              <li className="flex items-center gap-2">
-                <Mail size={16} />
-                <a href="mailto:hallan.dev.app@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-theme-purple transition-colors">
-                  hallan.dev.app@gmail.com
-                </a>
-              </li>
+            <li className="flex items-center gap-2">
+              <Mail size={16} />
+              <a href="mailto:hallan.dev.app@gmail.com" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-theme-purple transition-colors">
+                 hallan.dev.app@gmail.com
+              </a>
+            </li>
+
               <li className="flex items-center gap-2">
                 <Github size={16} />
                 <a href="https://github.com/HaallanP?tab=repositories" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-theme-purple transition-colors">

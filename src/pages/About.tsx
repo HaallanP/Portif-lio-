@@ -17,7 +17,8 @@ import {
   Terminal,
   PieChart,
   Layers,
-  Smartphone
+  Smartphone,
+  Mail
 } from "lucide-react";
 
 const About = () => {
@@ -53,6 +54,16 @@ const About = () => {
                   >
                     <Linkedin size={20} />
                   </a>
+                  
+                  <a 
+                    href="mailto:hallan.dev.app@gmail.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white p-2 rounded-full"
+                  >
+                     <Mail size={20} />
+                  </a>
+
                 </div>
                 
                 <HallanCV />
@@ -86,7 +97,7 @@ const About = () => {
                     </div>
                     <p className="text-sm text-muted-foreground mb-2">Projetos Independentes • 2023 - Presente</p>
                     <p className="text-muted-foreground">
-                      Desenvolvimento de aplicações web e desktop utilizando React, TypeScript e Electron.
+                      Desenvolvimento de aplicações web e desktop utilizando React, TypeScript.
                       Criação de interfaces modernas e responsivas com foco na experiência do usuário.
                     </p>
                   </div>
